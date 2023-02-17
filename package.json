@@ -1,0 +1,29 @@
+{
+  "name": "jsoneditor-vue3-vite-ts",
+  "version": "0.1.0",
+  "main": "./src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "format": "prettier --config .prettierrc \"src/**/*.{js,json,ts,css,scss,vue,html,md}\" --write",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "json-editor-vue": "^0.10.5",
+    "vanilla-jsoneditor": "^0.14.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.2",
+    "vue": "3.2.47"
+  },
+  "keywords": [],
+  "description": "Demo showing how to use jsoneditor-vue with Vue3 and Vite on Typescript"
+}
